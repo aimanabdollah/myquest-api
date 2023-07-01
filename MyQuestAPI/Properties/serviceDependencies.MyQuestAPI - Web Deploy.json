@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "mssql2": {
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/myquestdbdbserver/databases/MyQuestDb",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:MyQuestDb"
+    }
+  }
+}
