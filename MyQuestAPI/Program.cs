@@ -18,7 +18,8 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("MyQuest", builder =>
     {
-        builder.WithOrigins("https://myquest-khaki.vercel.app")
+        //builder.WithOrigins("http://localhost:4200")
+        builder.WithOrigins("https://myquest-khaki.vercel.app/")
                 //.AllowAnyHeader()
                 //.AllowAnyMethod();
                 .AllowAnyHeader()
